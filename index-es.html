@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathi con h</title>
+    <link rel="icon" href="/assets/images/icon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-nav">
+        <div class="container flex-lg-column ">
+            <a class="navbar-brand mx-lg-auto " href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Mathi con h</span>
+                <img src="./assets/images/person.jpg" class="img-navbar d-none d-lg-block rounded-circle" alt="">
+                <div class="social-icons">
+                    <a href="https://wa.me/+541161764910" target="_blank"><i class="lab la-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/mathi.con.h/" target="_blank"><i
+                            class="lab la-instagram"></i></a>
+                    <a href="https://github.com/mathias9968" target="_blank"><i class="lab la-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mathias-de-la-fuente-732515118/" target="_blank"><i
+                            class="lab la-linkedin"></i></a>
+                </div>
+                <!-- FOOTER -->
+                <!-- //FOOTER -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                    <select class="link-custom form-select" id="language-selector">
+                        <option class="" value="es">Proximamente</option>
+                        <option class="" value="es" selected>Español</option>
+                    </select>
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#work">Trabajos</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <br>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <button class="form-select" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                PALETA DE COLORES
+                            </button>
+                            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <div class="flex-lg-column">
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">TITULOS</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-heading"
+                                                    colorpick-eyedropper-active="false">
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">TEXTOS</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-body"
+                                                    colorpick-eyedropper-active="false">
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">BASE</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-base"
+                                                    colorpick-eyedropper-active="false">
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="flex-lg-column">
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">BOTONES</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-brand2"
+                                                    colorpick-eyedropper-active="false">
+                                        </li>
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">BRAND</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-brand"
+                                                    colorpick-eyedropper-active="false">
+                                        </li>
+                                        <li class="nav-item">
+                                            <div>
+                                                <p style="margin-bottom: 0px;">BODY</p>
+                                            </div>
+                                            <div>
+                                                <input class="" type="color" id="color-base2"
+                                                    colorpick-eyedropper-active="false">
+                                            </div>
+                                        </li>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">SOY <span class="text-brand">ANALISTA
+                                FUNCIONAL</span> DESDE
+                            ARGENTINA, BA</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Me considero una persona muy
+                            responsable, buena presencia, con amplia capacidad de aprendizaje y con mucho interes en el
+                            desarrollo laboral dentro de la informatica y la tecnologia.
+                            <br>
+                            Cuento con experiencia en servicios informáticos de salud tanto para la gestión hospitalaria
+                            como para la educación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- //HOME -->
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h1>HABILIDADES</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-feather-alt"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">BLANDAS</h5>
+                            <p>| Autodidacta | Seguimiento de proyectos | Oratoria | Liderazgo <br> | Autonomía |
+                                Proactivo | Gestión | </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-feather-alt"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">TÉCNICAS</h5>
+                            <p>| Scrum | GitHub | Microsoft Azure | POO | JS, HTML, CSS, Frameworks <br> | React |
+                                ClickUp |
+                                Postman | HTTP Request | MySQL | Relevamientos |</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- //SKILL -->
+
+
+        <!-- WORK -->
+        <!-- <section id="work" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">TRABAJOS</h6>
+                        <h1>Mis proyectos recientes</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="/assets/images/project-1.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Startup Landing Page</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure temporibus eos
+                                    iusto minima quod odio dicta doloribus vero facere cum sint, eius recusandae error a
+                                    quidem numquam! Amet, ad.</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="/assets/images/project-2.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Startup Landing Page</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure temporibus eos
+                                    iusto minima quod odio dicta doloribus vero facere cum sint, eius recusandae error a
+                                    quidem numquam! Amet, ad.</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="/assets/images/project-3.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Startup Landing Page</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure temporibus eos
+                                    iusto minima quod odio dicta doloribus vero facere cum sint, eius recusandae error a
+                                    quidem numquam! Amet, ad.</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="/assets/images/project-4.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Startup Landing Page</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure temporibus eos
+                                    iusto minima quod odio dicta doloribus vero facere cum sint, eius recusandae error a
+                                    quidem numquam! Amet, ad.</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- //WORK -->
+
+
+        <!-- ABOUT -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">SOBRE MI</h6>
+                        <h1>Mi Educación & Experiencia</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-12">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Educación</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Analista de Sistemas</h4>
+                                    <p class="text-brand mb-2">Escuela De Arte Multimedia Da Vinci. 2018 - 2021
+                                    </p>
+                                    <p class="mb-0">Titulación: 8,40
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Ingles</h4>
+                                    <p class="text-brand mb-2">Clases particulares. 2023 - Actualidad
+                                    </p>
+                                    <p class="mb-0">Clases 1 a 1 con un profesor de ingles
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Grado en Ingeniería, Ingeniería informática</h4>
+                                    <p class="text-brand mb-2">Universidad de Buenos Aires. 2015-2017
+                                    </p>
+                                    <p class="mb-0">Curse todo el cbc y medio año del primer año de ingenieria
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Bachiller en Economia y Administracion</h4>
+                                    <p class="text-brand mb-2">Instituto Sagrado Corazón
+                                    </p>
+                                    <p class="mb-0">Titulación: 7.08
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-12">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experiencia</h3>
+                        <div class="row gy-4">
+
+                            <a href="https://streambe.com/" target="_blank">
+                                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                                        <h4>Streambe</h4>
+                                        <p id="time-diff" class="text-brand mb-2">
+                                        </p>
+                                        <p class="mb-0">Me encuentro realizando las tareas de análisis en para un
+                                            importante
+                                            proyecto dentro de la industria farmacéutica. Parte de mi día requiere:
+                                            Junto a PO y UX relevar, tomar requerimientos, analizarlos y bajarlos a
+                                            historias de usuarios, mejoras y tarea que se requieran para crear una
+                                            funcionalidad
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://sofredigital.com.ar/" target="_blank">
+                                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                                        <h4>Sofre Digital SA</h4>
+                                        <p class="text-brand mb-2">
+                                            Analista Funcional - feb. 2022 - actualidad · 1 año 4 meses
+                                        </p>
+                                        <p class="mb-0">Me encontraba trabajando en el proyecto mas importante de Sofre,
+                                            creando un sistema de gestión hospitalaria, desde la admisión del paciente
+                                            hasta
+                                            la facturación del mismo. Equipo interdisciplinario de +35 personas en el
+                                            que me
+                                            desempeñaba como referente funcional de diferentes células como:
+                                            Configuración
+                                            inicial, Admisión, Historia clínica, Asistencial, Enfermería, Farmacia,
+                                            Cirugía,
+                                            entre otros.
+                                            En este fui parte del Discovery, desarrollo continúo, implementación,
+                                            soporte,
+                                            capacitación, presentaciones a mesa directiva, demos, facilitador, entre
+                                            otros.
+                                            El proyecto se desempeñaba bajo la metodología SCRUM y aprendí muchísimo
+                                            sobre
+                                            gestión de proyectos, liderazgo, seguimiento, organización de herramientas
+                                            de
+                                            trabajo y mucho trabajo en equipo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio"
+                                target="_blank">
+                                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="bg-base p-4 rounded-4 shadow-effect ">
+                                        <h4>Hospital Italiano de Buenos Aires</h4>
+                                        <p class="text-brand mb-2">Analista funcional - nov. 2018 - feb. 2022 · 3 años 4
+                                            meses
+                                        </p>
+                                        <p class="mb-0">Trabajo interdisciplinario dando asesoramiento en nuevas
+                                            tecnologías
+                                            en el ámbito de la educación enfocado en la innovación tecnológica orientada
+                                            a
+                                            E-Learning.
+                                            <br>
+                                            Parte de mi tarea diaria es Administrar, Gestionar proyectos de formaciones
+                                            nuevas, dar soluciones tecnológicas a problemáticas relacionadas con la
+                                            educación, capacitar sobre la plataforma Moodle a docentes y/o personal
+                                            administrativo, supervisar y liderar diferentes procesos/proyectos y dar
+                                            Soporte
+                                            Técnico sobre una plataforma llamada Moodle.
+                                            <br>
+                                            Presentación de taller en congreso CAEM 2019 (Congreso Argentino de
+                                            Educación
+                                            Medica): Cómo aplicar las herramientas de google a una propuesta educativa.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Rona McDonals, AtisReal</h4>
+                                    <p class="text-brand mb-2">Entrenador - mar. 2017 - nov. 2018 · 1 año 9 meses
+                                    </p>
+                                    <p class="mb-0">Manejo de caja, atención al cliente, carga y descarga de mercadería,
+                                        entrenamiento a empleados nuevos, etc. Ubicado en “Corrientes 980” “Obelisco”
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //ABOUT -->
+
+        <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up">
+                        <h6 class="text-brand">CONTACTO</h6>
+                        <h1>Contactame por mail
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                        <form action="https://formsubmit.co/06096c895421779348b363a2d1209946" method="POST"
+                            class="row g-lg-3 gy-3">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Ingresa tu nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="Ingresa tu email">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="text" name="title" class="form-control" placeholder="Ingresa un titulo">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="text" rows="4" class="form-control"
+                                    placeholder="Ingresa tu mensaje"></textarea>
+                            </div>
+                            <div class="form-group col-12 d-grid">
+                                <button type="submit" class="btn btn-brand">Contactame</button>
+                            </div>
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index-es.html">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- //CONTACT -->
+        <hr>
+
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="/assets/js/lang.js"></script>
+
+</body>
+
+</html>
