@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+  
+  p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+  }
+  
+  a {
+    font-weight: 700;
+  }
+  
+  .card-container {
+    display: grid;
+    height: 700px;
+    max-width: 450px;
+    margin: 100px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .item-img {
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  
+  .item-text {
+    text-align: center;
+    padding: 0 70px;
+    height: 100px;
+  }
+  
+  .item-text p {
+    padding-top: 15px;
+  }
+  
+  .item-music {
+    background-color: hsl(225, 100%, 98%);
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    gap: 1em;
+    margin: 0 40px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .item-music p {
+    padding: 6px 0px;
+  }
+  
+  .item-pricing {
+    width: 106px;
+  }
+  
+  .item-music a {
+    color: hsl(245, 75%, 52%);
+  }
+  
+  .item-music a:hover{
+    color: hsl(245, 75%, 70%);
+  }
+  
+  .button-payment {
+    background-color: hsl(245, 75%, 52%);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: auto 40px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 3px 15px hsl(224, 23%, 55%);
+  }
+  
+  .button-payment:hover{
+    background-color: hsl(245, 75%, 70%);
+  }
+  
+  .button-cancel {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .button-cancel:hover{
+    color: black;
+  }
+  
+  @media only screen and (max-width: 385px) {
+    .card-container {
+      max-width: 330px;
+      height: 600px;
+    }
+  
+    .item-text {
+      padding: 0px 30px;
+      
+      height: 120px;
+    }
+  
+    .item-music{
+      padding: 0px 15px;
+      margin: 0 20px;
+      height: 90px;
+    }
+  
+    .button-payment{
+      margin: 0 20px;
+    }
+  
+  }
