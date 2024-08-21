@@ -48,8 +48,9 @@ img {
 }
 
 .xx-large{
-  font-size: xx-large;
+  color: var(--color-heading);
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .overflowhidden{
