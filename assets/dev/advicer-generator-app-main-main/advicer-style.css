@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Manrope:wght@300&family=Noto+Serif&display=swap");
+
+:root {
+  --Light_Cyan: hsl(193, 38%, 86%);
+  --Neon_Green: hsl(150, 100%, 66%);
+  --Grayish_Blue: hsl(217, 19%, 38%);
+  --Dark_Grayish_Blue: hsl(217, 19%, 24%);
+  --Dark_Blue: hsl(218, 23%, 16%);
+  --Font-base: "Manrope", sans-serif;
+}
+
+body {
+  font-size: 28px;
+  font-family: var(--Font-base);
+  font-weight: 800;
+  background-color: var(--Dark_Blue);
+  height: 95vh;
+}
+
+p {
+  margin: 25px 60px !important;
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+}
+
+.row {
+  margin: 30px;
+  padding: 40px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--Dark_Grayish_Blue);
+}
+
+.title {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--Neon_Green);
+  font-size: small;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.line {
+  padding: 15px;
+}
+
+.circle {
+  display: flex;
+  background: var(--Neon_Green);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  top: 30px;
+}
+
+.circle:hover {
+  box-shadow: inset 0 0 20px var(--Neon_Green), 0 0 40px var(--Neon_Green);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 98%;
+  }
+
+  .flex-container {
+    width: 100%;
+  }
+
+  .line {
+    width: 90%;
+  }
+}
