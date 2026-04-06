@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mathiconh.github.io/sitemap.xml
